@@ -1,5 +1,5 @@
-import { TranslationMessages } from 'react-admin';
-import defaultEnglish from 'ra-language-english';
+import { TranslationMessages } from 'react-admin'
+import defaultEnglish from 'ra-language-english'
 
 export const en: TranslationMessages = {
   ...defaultEnglish,
@@ -14,4 +14,4 @@ export const en: TranslationMessages = {
       }
     }
   }
-};
+}
