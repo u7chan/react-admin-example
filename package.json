@@ -10,6 +10,7 @@
     "lint": "eslint --ext .jsx,.js,.tsx,.ts src/"
   },
   "dependencies": {
+    "@bicstone/ra-language-japanese": "^4.3.0",
     "ra-data-json-server": "^4.3.2",
     "react": "^18.2.0",
     "react-admin": "^4.3.2",

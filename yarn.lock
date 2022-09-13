@@ -247,6 +247,13 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
+"@bicstone/ra-language-japanese@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@bicstone/ra-language-japanese/-/ra-language-japanese-4.3.0.tgz#aae725c604c0680a0a95b3c5739a3f9f6606a6ca"
+  integrity sha512-MQUdJAIwkMfhr3KfysVIr5UjVuBPQpk+NPtxZUHJDY+8bFwZOo+/iWRKFstP7diyZbVoyLd9tUGrLWe586e2pA==
+  dependencies:
+    ra-core ">=4.0.0-alpha.2"
+
 "@emotion/babel-plugin@^11.10.0":
   version "11.10.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.10.2.tgz#879db80ba622b3f6076917a1e6f648b1c7d008c7"
@@ -2090,7 +2097,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ra-core@^4.3.2:
+ra-core@>=4.0.0-alpha.2, ra-core@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.3.2.tgz#628506438adab5958d6639dd27e39fab3186049d"
   integrity sha512-ZEE1mdbV6+WGjvUrTz8i72AdNih0vzJ66L2cuHRcMdlUIBvbnEGoUcfuF8mqE1RjRgP09zfCN+huRHu8tSLoow==
