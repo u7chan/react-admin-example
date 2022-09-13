@@ -7,8 +7,8 @@ export const en: TranslationMessages = {
     posts: {
       name: 'Posts',
       fields: {
-        userId: 'User',
         id: 'ID',
+        userId: 'UserID',
         title: 'Title',
         body: 'Contents'
       }

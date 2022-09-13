@@ -7,8 +7,8 @@ export const ja: TranslationMessages = {
     posts: {
       name: '投稿',
       fields: {
-        userId: 'ユーザー',
         id: 'ID',
+        userId: 'ユーザーID',
         title: '見出し',
         body: '本文'
       }
