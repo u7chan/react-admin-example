@@ -1,9 +1,9 @@
 import { Admin, Resource, ListGuesser } from 'react-admin'
 import polyglotI18nProvider from 'ra-i18n-polyglot'
 import { translations } from './i18n'
-import jsonServerProvider from 'ra-data-json-server'
-import { PostList, PostCreate, PostEdit } from './components'
 import { customTheme } from './themes'
+import { defaultDataProvider } from './data'
+import { PostList, PostCreate, PostEdit } from './components'
 
 const defaultLang = 'ja'
 const i18nProvider = polyglotI18nProvider(
@@ -11,12 +11,10 @@ const i18nProvider = polyglotI18nProvider(
   defaultLang
 )
 
-const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com')
-
 const App = () => (
   <Admin
     theme={customTheme}
-    dataProvider={dataProvider}
+    dataProvider={defaultDataProvider}
     i18nProvider={i18nProvider}>
     <Resource
       name="posts"
