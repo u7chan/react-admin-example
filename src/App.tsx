@@ -3,6 +3,7 @@ import polyglotI18nProvider from 'ra-i18n-polyglot'
 import { translations } from './i18n'
 import jsonServerProvider from 'ra-data-json-server'
 import { PostList, PostCreate, PostEdit } from './components'
+import { customTheme } from './themes'
 
 const defaultLang = 'ja'
 const i18nProvider = polyglotI18nProvider(
@@ -13,7 +14,10 @@ const i18nProvider = polyglotI18nProvider(
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com')
 
 const App = () => (
-  <Admin dataProvider={dataProvider} i18nProvider={i18nProvider}>
+  <Admin
+    theme={customTheme}
+    dataProvider={dataProvider}
+    i18nProvider={i18nProvider}>
     <Resource
       name="posts"
       list={PostList}
