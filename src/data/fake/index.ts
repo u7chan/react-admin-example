@@ -1,6 +1,6 @@
 import fakeDataProvider from 'ra-data-fakerest'
-import { resources } from './resources'
+import { fakeResources } from './resources'
 
 const useLogging = true
 
-export default fakeDataProvider(resources, useLogging)
+export default fakeDataProvider(fakeResources, useLogging)

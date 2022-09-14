@@ -1,7 +1,10 @@
+import { RaRecord } from 'react-admin'
 import { posts } from './posts'
 import { comments } from './comments'
 
-export const resources = {
+const fakeResources: { [key: string]: RaRecord[] } = {
   posts,
   comments
 }
+
+export { fakeResources }

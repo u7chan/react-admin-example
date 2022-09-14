@@ -1,4 +1,6 @@
-export const comments = [
+import { Comment } from '../../types'
+
+export const comments: Comment[] = [
   {
     postId: 1,
     id: 1,
